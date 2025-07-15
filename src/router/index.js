@@ -1,11 +1,7 @@
-import Complementario from 'ecored-pkg-fliz/plugin/components/Complementario.vue'
-import Glosario from 'ecored-pkg-fliz/plugin/components/Glosario.vue'
-import Curso from 'ecored-pkg-fliz/plugin/components/plantilla/Curso.vue'
-import Referencias from 'ecored-pkg-fliz/plugin/components/Referencias.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Creditos from '../components/Creditos.vue'
-import Inicio from '../components/Inicio.vue'
+import Curso from '../../node_modules/ecobase-pkg/src/views/Curso.vue'
+import Inicio from '../../node_modules/ecobase-pkg/src/views/Inicio.vue'
 
 Vue.use(VueRouter)
 
@@ -59,17 +55,26 @@ const router = new VueRouter({
     {
       path: '/glosario',
       name: 'glosario',
-      component: Glosario,
+      component: () =>
+        import(
+          /* webpackChunkName: "glosario" */ '../../node_modules/ecobase-pkg/src/views/Glosario.vue'
+        ),
     },
     {
       path: '/complementario',
       name: 'complementario',
-      component: Complementario,
+      component: () =>
+        import(
+          /* webpackChunkName: "comple" */ '../../node_modules/ecobase-pkg/src/views/Complementario.vue'
+        ),
     },
     {
       path: '/referencias',
       name: 'referencias',
-      component: Referencias,
+      component: () =>
+        import(
+          /* webpackChunkName: "referencias" */ '../../node_modules/ecobase-pkg/src/views/Referencias.vue'
+        ),
     },
     {
       path: '/sintesis',
@@ -80,7 +85,10 @@ const router = new VueRouter({
     {
       path: '/creditos',
       name: 'creditos',
-      component: Creditos,
+      component: () =>
+        import(
+          /* webpackChunkName: "creditos" */ '../../node_modules/ecobase-pkg/src/views/Creditos.vue'
+        ),
     },
   ],
   scrollBehavior(to, from) {
