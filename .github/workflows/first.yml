@@ -1,6 +1,6 @@
-# This is a basic workflow to help you get started with Actions 
+# This is a basic workflow to help you get started with Actions
 
-name: Crear Dist
+name: Primera acción
 
 # Controls when the action will run.
 on:
@@ -32,7 +32,7 @@ jobs:
       - name: construccion de dist
         run: npm run build
 
-      - name: agregar nevo dist a gh-pages
+      - name: agregar nuevo dist a gh-pages
         run: |
           git config user.name dfvelasco
           git config user.email dfvelasco@sena.edu.co
@@ -40,7 +40,7 @@ jobs:
           git add --force dist
           git commit -m "new dist"
           git push -u origin newdist
-          git push origin `git subtree split --prefix dist newdist`:gh-pages --force
+          git subtree push --prefix dist origin gh-pages
           git push origin --delete newdist
 
 # git subtree push --prefix dist origin gh-pages
