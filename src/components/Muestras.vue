@@ -179,7 +179,7 @@
       h5 Tabla_A.
       i Titulo_tabla
     .tabla-a.color-acento-botones.mb-5 
-      table(data-aos="zoom-in" alt="Texto_alternativo_tabla")
+      table(alt="Texto_alternativo_tabla")
         caption Nota. <span style="font-weight: 400">Tomado_referencia.</span>
         thead
           tr(data-aos="fade-right")
@@ -214,7 +214,7 @@
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
         h4.mb-0 Titulo_header
-      table(data-aos="zoom-in" alt="Texto_alternativo_tabla")
+      table(alt="Texto_alternativo_tabla")
         caption Nota. <span style="font-weight: 400">Tomado_referencia.</span>
         tr(data-aos="fade-right")
           th Celda_titulo_1
@@ -236,7 +236,7 @@
       h5 Tabla_C.
       i Titulo_tabla
     .tabla-c.mb-5
-      table(data-aos="zoom-in" alt="Texto_alternativo_tabla")
+      table(alt="Texto_alternativo_tabla")
         caption Nota. <span style="font-weight: 400">Tomado_referencia.</span>
         thead
           tr(data-aos="fade-right")
@@ -341,15 +341,15 @@
         figure
           img(src='@/assets/template/img-placeholder.svg', alt="Imagen decorativa")
           figcaption Leyenda_de_la_imagen
-      div(x="20%" y="20%" tooltip="tooltip_de_max_35_caracteres" numero="1")
+      div(x="20%" y="20%" tooltip="tooltip_max_35_caracteres" numero="1")
         h5 titulo
         p Texto_infografia_b
         p Texto_infografia_b
         p.mb-0 Texto_infografia_b
-      div(x="50%" y="50%" tooltip="tooltip_de_max_35_caracteres")
+      div(x="50%" y="50%" tooltip="tooltip_max_35_caracteres")
         .h5.mb-2 titulo
         p.mb-0 Texto_infografia_b
-      div(x="70%" y="70%" tooltip="tooltip_de_max_35_caracteres")
+      div(x="70%" y="70%" tooltip="tooltip_max_35_caracteres")
         .h5.mb-2 titulo
         p.mb-0 Texto_infografia_b
 
@@ -476,7 +476,7 @@
       h3 Slider A
     .tarjeta.tarjeta--azul.p-4.mb-5
       h4.titulo-cuarto Tipo A
-      SlyderA(data-aos="zoom-in")
+      SlyderA.color-primario.arrow-white(data-aos="zoom-in")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -494,7 +494,7 @@
 
     .tarjeta.tarjeta--azul.p-4.mb-5
       h4.titulo-cuarto Tipo B
-      SlyderA(tipo="b" data-aos="zoom-in")
+      SlyderA.color-secundario(tipo="b" data-aos="zoom-in")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -512,15 +512,15 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h3 Slider B
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.color-acento-botones.mb-5(:datos="datosSlyder")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h3 Slider C
-    SlyderC.mb-5(:datos="datosSlyder")
+    SlyderC.color-acento-botones.mb-5(:datos="datosSlyder")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h3 Slider D
-    SlyderD.mb-5(:datos="datosSlyder")
+    SlyderD.color-acento-botones.mb-5(:datos="datosSlyder")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h3 Slyder F
@@ -589,7 +589,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h3 Acordion A
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
+    AcordionA.color-primario.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
       .row.justify-content-center(titulo="Titulo item 1")
         .col-lg-6.order-lg-1.order-2
           p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -605,7 +605,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h3 Acordion A tipo B
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
+    AcordionA.color-secundario(tipo="b" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
       .row.justify-content-center(titulo="Titulo item 1")
         .col-lg-6.order-lg-1.order-2
           p.mb-0 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
