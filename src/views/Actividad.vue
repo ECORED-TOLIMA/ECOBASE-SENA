@@ -24,7 +24,7 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -38,7 +38,7 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -52,7 +52,7 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -66,7 +66,7 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -80,7 +80,7 @@ export default {
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -94,7 +94,7 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -108,7 +108,7 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -122,7 +122,7 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -136,7 +136,7 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -150,7 +150,7 @@ export default {
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -164,7 +164,7 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -178,7 +178,7 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -192,7 +192,7 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -206,7 +206,7 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -220,7 +220,7 @@ export default {
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -234,7 +234,7 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -248,7 +248,7 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -262,7 +262,7 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -276,7 +276,7 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -290,7 +290,7 @@ export default {
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
+            { id: 'a', texto: 'opcion_1', esCorrecta: true },
             { id: 'b', texto: 'opcion_2', esCorrecta: false },
             { id: 'c', texto: 'opcion_3', esCorrecta: false },
             { id: 'c', texto: 'opcion_4', esCorrecta: false },
@@ -300,7 +300,7 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },

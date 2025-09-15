@@ -60,7 +60,7 @@
         ol.lista-ol
           li(data-aos="fade-right") 
             span.text-bold 1. 
-            | Item lista ordenada 1
+            p.mb-0 Item lista ordenada 1
           li(data-aos="fade-right") 
             span.text-bold 2. 
             | Item lista ordenada 2
