@@ -3,7 +3,6 @@ export default {
     componenteFormativo: 'Nombre_del_recurso_educativo',
     descripcionCurso: 'Descripción_del_RED',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
