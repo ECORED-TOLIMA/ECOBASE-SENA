@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10.369" height="16.495" viewBox="0 0 10.369 16.495">
-  <path id="Trazado_113515" data-name="Trazado 113515" d="M-21088-7107.893l7.188,7.187-7.187,7.187" transform="translate(21089.061 7108.953)" fill="none" stroke="#fff" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8">
+  <g id="Grupo_1101734" data-name="Grupo 1101734" transform="translate(-1147.571 -694)">
+    <path id="arrow" d="M0,1.5,1.63,0,8,6,1.63,12,0,10.5,4.8,6Z" transform="translate(1159.571 694) rotate(90)" fill="#fff"/>
+  </g>
 </svg>
